@@ -1,0 +1,11 @@
+# Payout parameters read by tools/steak.ts (the Steak framework, SPEC.md). Changing one is a policy change (STAKE.md, 30-day PR).
+# When a change merges, keep the old value for Steak already earned: add a [[before]] table at the end
+# with until = "YYYY-MM-DD" (the merge day) and the old key.
+reserve = 0.1
+upstream = 0.05
+balanced = 0.5
+threshold = 25
+recent_quarters = 2
+backpay_years = 3
+vest_days = 30
+allow_self_sizing = false

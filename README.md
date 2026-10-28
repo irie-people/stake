@@ -14,7 +14,7 @@ shared. Read [STAKE.md](STAKE.md). It follows the [Steak framework](https://gith
 Event line:
 
 ```json
-{"id":"2027-03-0007","at":"2027-03-04T18:22:10Z","who":"bob","kind":"change","ref":"irie-hq/irie#142","commit":"3f9c2e1a","steak":8,"sized_by":"carol","note":"short description"}
+{"id":"2027-03-0007","at":"2027-03-04T18:22:10Z","who":"bob","kind":"change","ref":"irie-people/irie#142","commit":"3f9c2e1a","steak":8,"sized_by":"carol","note":"short description"}
 ```
 
 `kind` is `change`, `review`, `report`, `docs`, `support` or `revert` (negative

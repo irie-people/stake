@@ -1,7 +1,7 @@
 # irie stake
 
 The public record of who built irie and how money, if any ever arrives, is
-shared. Read [STAKE.md](STAKE.md). It follows the [Steak framework](https://github.com/steak-hq/steak) (v0.2.0).
+shared. Read [STAKE.md](STAKE.md). It follows the [Steak framework](https://github.com/irie-people/steak) (v0.2.0).
 
 | Path | What |
 |---|---|

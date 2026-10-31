@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-// Vendored from steak-hq/steak v0.2.0. Update with `steak vendor .`; don't edit by hand.
+// Vendored from irie-people/steak v0.2.0. Update with `steak vendor .`; don't edit by hand.
 // Steak: a contribution ledger that pays money back by the value of the work, if money ever arrives.
 //   steak init    <stake-repo> --name <project> --org <org> --founder <handle> [--code <code-repo>]
 //                 [--reserve 10 --upstream 5 --threshold 25 --backpay-years 3 --vest-days 30]
@@ -181,7 +181,7 @@ export function compute(repo: string, q: string, net: number, from?: Dist): Dist
 
 // Stake repos carry a copy of this file at tools/steak.ts so anyone can verify payouts offline.
 const templates = join(import.meta.dir, "..", "templates");
-const vendorHeader = (src: string) => src.replace(/^#!.*\n/, (s) => `${s}// Vendored from steak-hq/steak v${VERSION}. Update with \`steak vendor .\`; don't edit by hand.\n`);
+const vendorHeader = (src: string) => src.replace(/^#!.*\n/, (s) => `${s}// Vendored from irie-people/steak v${VERSION}. Update with \`steak vendor .\`; don't edit by hand.\n`);
 
 function vendor(repo: string) {
   const dest = join(repo, "tools", "steak.ts");

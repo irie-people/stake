@@ -14,7 +14,7 @@ its money, and it carries no right to any future token or asset.
 ## The founder
 
 The founder starts with zero Steak, like everyone else. The founder works under
-the account `lowkeel` and earns Steak only for work that another
+the account `EvanMcDowell31` and earns Steak only for work that another
 maintainer sizes, by the same rules as everyone.
 
 ## Earning Steak
